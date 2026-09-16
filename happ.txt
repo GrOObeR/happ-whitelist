@@ -1,0 +1,5 @@
+#profile-title: WhiteList Auto
+#profile-update-interval: 1
+
+# This file will be filled automatically by GitHub Actions after the repository
+# is created. You can also run the workflow manually from the Actions tab.

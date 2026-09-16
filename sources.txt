@@ -1,0 +1,7 @@
+# One independent source per line.
+# Mirrors of THE SAME source are separated by |.
+# The script tries mirrors from left to right and uses the first one that works.
+#
+# To merge another independent VLESS source, put it on a NEW line.
+
+https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt | https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt | https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt
