@@ -1,7 +1,14 @@
-# One independent source per line.
-# Mirrors of THE SAME source are separated by |.
-# The script tries mirrors from left to right and uses the first one that works.
-#
-# To merge another independent VLESS source, put it on a NEW line.
+# One independent whitelist VLESS source per line.
+# Mirrors of the SAME source can be placed on one line using |.
+# These are curated sources, not generic VPN feeds.
 
+# zieng2 universal (existing source + official mirrors)
 https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt | https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt | https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt
+
+# igareck: whitelist mobile and separate full whitelist CIDR
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
+
+# Aggregators that explicitly target mobile whitelist scenarios
+https://raw.githubusercontent.com/hussaroff/lte-universal-checked/main/whitelist.txt
+https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
